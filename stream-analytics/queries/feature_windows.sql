@@ -1,0 +1,2 @@
+-- Canonical Stream Analytics location for short-window/event-time feature queries.
+-- Concrete feature SQL should be added only after a corresponding feature contract exists.
