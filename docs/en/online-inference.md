@@ -1,5 +1,9 @@
 # Online Inference Pipeline
 
+[English](../en/online-inference.md) | [한국어](../ko/online-inference.md)
+
+> English is the canonical documentation. If translations diverge, the English version is authoritative.
+
 The online path is optimized for low latency. Stream Analytics computes only short-lived event-time features; historical features are served from Databricks-managed feature tables.
 
 ```mermaid

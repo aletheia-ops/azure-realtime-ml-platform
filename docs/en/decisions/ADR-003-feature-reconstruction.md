@@ -1,5 +1,9 @@
 # ADR-003: Reconstruct Streaming Features Offline for Training
 
+[English](../../en/decisions/ADR-003-feature-reconstruction.md) | [한국어](../../ko/decisions/ADR-003-feature-reconstruction.md)
+
+> English is the canonical documentation.
+
 ## Status
 Accepted
 

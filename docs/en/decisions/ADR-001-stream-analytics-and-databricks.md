@@ -1,5 +1,9 @@
 # ADR-001: Use Stream Analytics and Databricks for Different Time Horizons
 
+[English](../../en/decisions/ADR-001-stream-analytics-and-databricks.md) | [한국어](../../ko/decisions/ADR-001-stream-analytics-and-databricks.md)
+
+> English is the canonical documentation.
+
 ## Status
 Accepted
 

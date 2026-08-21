@@ -1,5 +1,9 @@
 # Offline Training and Databricks MLOps
 
+[English](../en/offline-training.md) | [한국어](../ko/offline-training.md)
+
+> English is the canonical documentation. If translations diverge, the English version is authoritative.
+
 Training uses historical raw events retained through Event Hubs Capture. Databricks reconstructs the same short-window feature semantics used by Stream Analytics in production, then joins them with long-term historical features and labels using point-in-time correctness.
 
 ```mermaid

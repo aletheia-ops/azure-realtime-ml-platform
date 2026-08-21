@@ -1,5 +1,9 @@
 # ADR-002: Use Databricks-Only MLOps
 
+[English](../../en/decisions/ADR-002-databricks-only-mlops.md) | [한국어](../../ko/decisions/ADR-002-databricks-only-mlops.md)
+
+> English is the canonical documentation.
+
 ## Status
 Accepted
 

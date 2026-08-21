@@ -1,5 +1,9 @@
 # Atomic Task Decomposition
 
+[English](../../en/development/task-decomposition.md) | [한국어](../../ko/development/task-decomposition.md)
+
+> English is the canonical documentation. If translations diverge, the English version is authoritative.
+
 The project should be planned as small, independently reviewable changes rather than one large task per Azure service.
 
 ## Rules
@@ -16,7 +20,6 @@ A good task should normally:
 ## Suggested epics and atomic tasks
 
 ### Repository foundation
-
 - R-01 Add repository ignore rules.
 - R-02 Add editor configuration.
 - R-03 Add Python tooling configuration.
@@ -27,7 +30,6 @@ A good task should normally:
 - R-08 Document local development setup.
 
 ### Event ingestion and streaming
-
 - S-01 Define the canonical event envelope.
 - S-02 Add sample event fixtures.
 - S-03 Define one short-window feature contract.
@@ -36,7 +38,6 @@ A good task should normally:
 - S-06 Add validation for missing/invalid event fields.
 
 ### Lakehouse data engineering
-
 - D-01 Define Bronze landing conventions.
 - D-02 Implement Bronze ingestion/read logic.
 - D-03 Define the Silver schema.
@@ -46,7 +47,6 @@ A good task should normally:
 - D-07 Add unit/integration tests for Silver output.
 
 ### Feature engineering
-
 - F-01 Implement one historical feature.
 - F-02 Implement Databricks reconstruction of one live feature.
 - F-03 Add a point-in-time join utility.
@@ -54,7 +54,6 @@ A good task should normally:
 - F-05 Add feature materialization/backfill logic.
 
 ### MLOps
-
 - M-01 Build the first versioned training dataset.
 - M-02 Add a baseline model.
 - M-03 Add MLflow experiment logging.
@@ -65,14 +64,12 @@ A good task should normally:
 - M-08 Add serving smoke tests.
 
 ### Batch orchestration
-
 - A-01 Define one external batch source contract.
 - A-02 Add one Data Factory copy pipeline.
 - A-03 Add one Databricks-job trigger activity.
 - A-04 Add rerun/idempotency validation.
 
 ### Inference integration
-
 - I-01 Define the live-feature request schema.
 - I-02 Implement request validation.
 - I-03 Implement the Model Serving client.

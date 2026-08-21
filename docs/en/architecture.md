@@ -1,5 +1,9 @@
 # System Architecture
 
+[English](../en/architecture.md) | [한국어](../ko/architecture.md)
+
+> English is the canonical documentation. If translations diverge, the English version is authoritative.
+
 ## Service boundaries
 
 | Component | Primary responsibility |

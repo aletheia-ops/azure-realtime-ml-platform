@@ -1,5 +1,9 @@
 # Azure Data Factory
 
+[English](README.md) | [한국어](README.ko.md)
+
+> English is the canonical documentation.
+
 This directory stores version-controlled Data Factory artifacts used for batch ingestion and high-level orchestration.
 
 Planned subdirectories:

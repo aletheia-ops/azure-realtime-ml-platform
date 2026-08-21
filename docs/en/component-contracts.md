@@ -1,5 +1,9 @@
 # Component Contracts
 
+[English](../en/component-contracts.md) | [한국어](../ko/component-contracts.md)
+
+> English is the canonical documentation. If translations diverge, the English version is authoritative.
+
 This document defines the responsibility and handoff contract of each major platform component. The purpose is to prevent overlapping ownership and to make integration points explicit before domain-specific implementation begins.
 
 ## Contract format

@@ -1,5 +1,9 @@
 # Infrastructure as Code
 
+[English](README.md) | [한국어](README.ko.md)
+
+> English is the canonical documentation.
+
 This directory is reserved for Azure infrastructure definitions. Bicep is the default recommendation for this Azure-focused project unless the team explicitly chooses Terraform.
 
 Suggested structure:

@@ -1,5 +1,9 @@
 # Feature Contracts
 
+[English](../en/feature-contracts.md) | [한국어](../ko/feature-contracts.md)
+
+> English is the canonical documentation. If translations diverge, the English version is authoritative.
+
 Features that exist in both the real-time and offline paths must share one semantic contract even though they are implemented in different engines.
 
 ```mermaid
