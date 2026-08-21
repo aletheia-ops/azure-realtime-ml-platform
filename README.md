@@ -1,5 +1,9 @@
 # Azure Real-Time ML Platform
 
+[English](README.md) | [한국어](README.ko.md)
+
+> **Canonical documentation:** English. If the English and Korean documentation diverge, the English version is authoritative.
+
 Architecture-first team project for a real-time Azure data and machine-learning platform using Event Hubs, Stream Analytics, ADLS Gen2, Data Factory, and Azure Databricks with Databricks-native MLOps.
 
 ## Architecture at a glance
@@ -40,13 +44,15 @@ A key design rule is that Stream Analytics computes short-lived event-time featu
 
 ## Documentation
 
-- [System architecture](docs/architecture.md)
-- [Online inference pipeline](docs/online-inference.md)
-- [Offline training and MLOps](docs/offline-training.md)
-- [Feature contracts](docs/feature-contracts.md)
-- [ADR-001: Stream Analytics and Databricks](docs/decisions/ADR-001-stream-analytics-and-databricks.md)
-- [ADR-002: Databricks-only MLOps](docs/decisions/ADR-002-databricks-only-mlops.md)
-- [ADR-003: Reconstruct streaming features offline](docs/decisions/ADR-003-feature-reconstruction.md)
+- [System architecture](docs/en/architecture.md)
+- [Component contracts](docs/en/component-contracts.md)
+- [Online inference pipeline](docs/en/online-inference.md)
+- [Offline training and MLOps](docs/en/offline-training.md)
+- [Feature contracts](docs/en/feature-contracts.md)
+- [Atomic task decomposition](docs/en/development/task-decomposition.md)
+- [ADR-001: Stream Analytics and Databricks](docs/en/decisions/ADR-001-stream-analytics-and-databricks.md)
+- [ADR-002: Databricks-only MLOps](docs/en/decisions/ADR-002-databricks-only-mlops.md)
+- [ADR-003: Reconstruct streaming features offline](docs/en/decisions/ADR-003-feature-reconstruction.md)
 
 ## Guiding principle
 
