@@ -1,0 +1,16 @@
+name: transaction_count_5m
+version: 1
+entity_keys:
+  - user_id
+time_column: event_time
+window:
+  type: sliding
+  duration: 5m
+  interval: "[T-5m, T)"
+aggregation:
+  operation: count
+default: 0
+data_type: long
+implementations:
+  realtime: stream-analytics
+  offline: databricks
